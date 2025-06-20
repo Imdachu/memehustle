@@ -138,3 +138,13 @@ The app will be available at `http://localhost:5173`.
 - **Credit System**: Build out the backend logic for user credit balances, allowing for real transactions.
 - **Meme Image Uploads**: Allow users to upload images directly instead of providing a URL.
 - **Persistent Caching**: Use a service like Redis to cache AI responses and leaderboard data to reduce database load and improve performance.
+
+---
+
+## 👨‍💻 Development Notes
+
+This project was built with the assistance of **Cursor**, an AI-powered code editor. It was instrumental in:
+- Generating boilerplate code for React components and Express server routes.
+- Debugging complex deployment and CORS issues between the frontend and backend.
+- Assisting in the creation of a robust, real-time WebSocket layer for bidding and voting (even when it felt like WebSocket chaos!).
+- Writing and refining comprehensive documentation and README files.
