@@ -1,0 +1,13 @@
+# Ignore environment files
+.env
+*.env
+.env.*
+
+# Ignore node_modules directories
+/node_modules
+backend/node_modules
+frontend/FRONTEND/node_modules
+
+# Ignore build output
+/dist
+/.vite 
