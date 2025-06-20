@@ -1,0 +1,130 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+/* Cyberpunk Neon & Glitch Effects */
+.neon-text {
+  color: #fff;
+  text-shadow:
+    0 0 5px #fff,
+    0 0 10px #f0f,
+    0 0 20px #0ff,
+    0 0 40px #f0f,
+    0 0 80px #0ff;
+}
+
+.neon-glow {
+  box-shadow: 0 0 15px #f0f, 0 0 30px #0ff;
+}
+
+.glitch {
+  position: relative;
+  color: #fff;
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 2.5rem;
+  letter-spacing: 2px;
+  animation: glitch 1.5s infinite linear alternate-reverse;
+}
+.glitch::before, .glitch::after {
+  content: attr(data-text);
+  position: absolute;
+  left: 0;
+  width: 100%;
+  opacity: 0.7;
+}
+.glitch::before {
+  color: #f0f;
+  z-index: 1;
+  animation: glitchTop 1.5s infinite linear alternate-reverse;
+}
+.glitch::after {
+  color: #0ff;
+  z-index: 2;
+  animation: glitchBottom 1.5s infinite linear alternate-reverse;
+}
+@keyframes glitch {
+  0% { transform: none; }
+  20% { transform: skew(-2deg, 0.6deg); }
+  40% { transform: skew(1deg, -1deg); }
+  60% { transform: skew(-1deg, 1deg); }
+  80% { transform: skew(2deg, 0deg); }
+  100% { transform: none; }
+}
+@keyframes glitchTop {
+  0% { transform: translate(0, 0); }
+  20% { transform: translate(-2px, -2px); }
+  40% { transform: translate(-2px, 2px); }
+  60% { transform: translate(2px, -1px); }
+  80% { transform: translate(2px, 1px); }
+  100% { transform: translate(0, 0); }
+}
+@keyframes glitchBottom {
+  0% { transform: translate(0, 0); }
+  20% { transform: translate(2px, 2px); }
+  40% { transform: translate(2px, -2px); }
+  60% { transform: translate(-2px, 1px); }
+  80% { transform: translate(-2px, -1px); }
+  100% { transform: translate(0, 0); }
+}
+
+.typewriter {
+  overflow: hidden;
+  border-right: .15em solid #f0f;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: .15em;
+  animation: typing 2.5s steps(30, end), blink-caret .75s step-end infinite;
+}
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: #f0f; }
+}
+
+/* Neon button hover */
+.neon-btn:hover {
+  box-shadow: 0 0 10px #f0f, 0 0 20px #0ff;
+  filter: brightness(1.2);
+}
