@@ -5,8 +5,9 @@ MemeHustle is a full-stack web application that brings together generative AI, r
 This project demonstrates a modern, decoupled architecture using a React frontend and a Node.js backend, with real-time communication handled by WebSockets and data persistence managed by Supabase.
 
 ### 🚀 **[View the Live Demo](https://memehustle-tau.vercel.app/)** 🚀
+### 🚀 **[Youtube Demo vedio](https://youtu.be/hzz22D-0Pdw**)** 🚀
 
----      ** youtube demo link: https://youtu.be/hzz22D-0Pdw
+
 **
 ## 🌟 Core Features
 
