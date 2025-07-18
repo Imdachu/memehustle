@@ -6,8 +6,8 @@ This project demonstrates a modern, decoupled architecture using a React fronten
 
 ### 🚀 **[View the Live Demo](https://memehustle-tau.vercel.app/)** 🚀
 
----
-
+---      ** youtube demo link: https://youtu.be/hzz22D-0Pdw
+**
 ## 🌟 Core Features
 
 - **🤖 AI-Powered Meme Generation**: Users provide a title and tags, and the backend uses the **Google Gemini AI** to generate a witty, context-aware caption and a unique "cyberpunk vibe" description for the meme.
